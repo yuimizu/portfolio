@@ -1,0 +1,285 @@
+html{
+    font-size: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    width: 11.625rem;
+    color: #F6B03F;
+}
+
+.gnavi{
+    display: flex;
+}
+
+.gnavi li{
+    margin-right: 30px;
+}
+
+.gnavi a{
+    font-size: 1rem;
+}
+
+.main-visual{
+    position: relative;
+    height: 80vh;
+}
+
+.copy{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    color: #F6B03F;
+}
+
+.copy-text{
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 15.7333333333vw;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    line-height: 1;
+}
+
+.bottom{
+    margin-top: 200px;
+}
+
+.main-visual-img{
+    display: flex;
+    position: absolute;
+    top: 10vh;
+
+}
+
+.main-visual-img img{
+    display: block;
+}
+
+main{
+    margin-top: -11.25rem;
+    background-color: #FFF7DC;
+    padding-top: 17.375rem;
+    border-radius: 50px;
+}
+
+#introduce{
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 18.75rem;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.introduce-text{
+    width: 50%;
+}
+
+.introduce-text p{
+    display: inline-block;
+    font-size: 1.125rem;
+    letter-spacing: 0.08em;
+    line-height: 2;
+    margin-top: 0;
+}
+
+.phots{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.item{
+    width: 50%;
+}
+
+.item img{
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+}
+
+#works{
+    padding: 2.625rem 0 8rem;
+    position: relative; 
+    background-color: #FFC3CB;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.title{
+    font-size: 6.25rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-align: center;
+    text-transform: uppercase;
+    top: 4.5rem;
+    color: #424242;
+    font-family: black;
+}
+
+.site{
+    margin-top: 20px;
+}
+
+.heading-wrapper{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heading{
+    display: inline-block;
+    position: relative;
+}
+
+.heading-text{
+    background-color: #fff;
+    border: 1px solid #000;
+    display: block;
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+    font-size: 2.125rem;
+    padding: 0 0.625rem 0.1875rem;
+    box-shadow: 10px 10px 3px #333;
+}
+
+.site-content{
+    margin: 2.3125rem auto 0;
+    width: 550px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.site-image{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-width: 0.125rem;
+    padding: 1.25rem;
+    position: relative;
+    box-shadow: 10px 10px 3px #333;
+}
+
+
+.site-image img{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.site-image img:hover{
+    opacity: 0.8;
+}
+
+.site-period{
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    border-width: 0.125rem;
+    height: 6.75rem;
+    width: 6.75rem;
+    justify-content: center;
+    position: absolute;
+    right: 0.5rem;
+    top: -3rem;
+}
+
+.site-text{
+    display: block;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.date{
+    display: block;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1;
+    margin-top: 0.15em;
+}
+
+#contact{
+    background-color: #C6FFE2;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.sns{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sns :hover{
+    opacity: 0.8;
+    color: #424242;
+
+}
+
+.sns li{
+    margin-left: 30px;
+}
+
+#contact p{
+    margin-top:30px;
+    padding-bottom: 30px;
+}
+
+#page-top {
+    position: absolute;
+    right: 50px; 
+    bottom: 10px;  
+}
+
+#page-top a {
+    background: url(https://webdesignclip.com/img/pagetop.png) top left no-repeat;
+    background-color: #424242;
+    display: block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
