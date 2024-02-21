@@ -3,7 +3,9 @@ html{
 }
 
 body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:"Noto Sans JP", sans-serif;
+    color: #000;
+    padding-top: 60px;
 }
 
 img{
@@ -23,9 +25,13 @@ header{
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
-    height: 5rem;
     width: 100%;
     align-items: center;
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .95);
 }
 
 .logo{
@@ -47,7 +53,6 @@ header{
 
 .main-visual{
     position: relative;
-    height: 80vh;
 }
 
 .copy{
@@ -81,6 +86,26 @@ header{
     width: 30vw;
 }
 
+.item1{
+    position: relative;
+}
+
+.item1:hover .hover-text{
+    display: inline;
+}
+
+.hover-text{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    background-color: #FFF7DC;
+    top: 40px;
+    right: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 3vw;
+}
+
 #introduce{
     margin: 0 auto;
     padding: 2.625rem 0 8rem;
@@ -91,9 +116,9 @@ header{
     border-top-right-radius: 50px;
 }
 
-.inner{
+.inner1{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -107,6 +132,14 @@ header{
 
 .introduce-text p{
     margin-top: 10px;
+}
+
+.last{
+    text-align: end;
+}
+
+.content{
+    margin-bottom: 20px;
 }
 
 .phots{
@@ -126,13 +159,16 @@ header{
 }
 
 #works{
-    padding: 2.625rem 0 8rem;
-    position: relative; 
+    padding: 2.625rem 0 8rem; 
     background: -moz-linear-gradient(top, #FFC3CB, #FFF);
     background: -webkit-linear-gradient(top, #FFC3CB, #FFF);
     background: linear-gradient(to bottom, #FFC3CB #FFF);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+}
+
+.inner2{
+    position: relative;
 }
 
 .title{
@@ -148,6 +184,7 @@ header{
 
 .site{
     margin-top: 20px;
+    position: relative;
 }
 
 .heading-wrapper{
@@ -230,6 +267,21 @@ header{
     margin-top: 0.15em;
 }
 
+.decoration{
+    width: 20vw;
+    display: block;
+    position: absolute;
+    top:10px;
+}
+
+.decoration2{
+    width: 20vw;
+    display: block;
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+}
+
 #contact{
     background: -moz-linear-gradient(top, #C6FFE2, #FFF);
     background: -webkit-linear-gradient(top, #C6FFE2, #FFF);
@@ -238,6 +290,7 @@ header{
     border-top-right-radius: 50px;
     text-align: center;
     position: relative;
+    padding: 2.625rem 0 3rem
 }
 
 .sns{
@@ -249,7 +302,6 @@ header{
 .sns :hover{
     opacity: 0.8;
     color: #424242;
-
 }
 
 .sns li{
@@ -259,6 +311,48 @@ header{
 #contact p{
     margin-top:30px;
     padding-bottom: 30px;
+}
+
+@media(max-width: 375px){
+
+    .inner1{
+        flex-direction: column;
+        padding: 0 3%;
+    }
+
+    .introduce-text{
+        width: 100%;  
+    }
+
+    .phots{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .item{
+        width: 100%;
+    }
+
+    .inner2{
+        max-width: 1200px;
+        margin: 100px;
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .decoration2{
+        display: none;
+    }
+
+    #contact{
+        margin: 50px
+    }
+
+
+
+
+
 }
 
 
