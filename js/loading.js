@@ -3,9 +3,9 @@ var bar = new ProgressBar.Line(splash_text, {
 	easing: 'easeInOut',
 	duration: 1000,
 	strokeWidth: 0.2,
-	color: '#424242',
+	color: '#F6B03F',
 	trailWidth: 0.2,
-	trailColor: '#bbb',
+	trailColor: '#fff',
 	text: {				
 		style: {
 			position: 'absolute',
@@ -15,7 +15,7 @@ var bar = new ProgressBar.Line(splash_text, {
 			margin: '-30px 0 0 0',
 			transform:'translate(-50%,-50%)',
 			'font-size':'1rem',
-			color: '#fff',
+			color: '#F6B03F',
 		},
 		autoStyleContainer: false 
 	},
