@@ -290,19 +290,9 @@ header{
     padding: 2.625rem 0 3rem
 }
 
-.sns{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.sns :hover{
+#contact a :hover{
     opacity: 0.8;
-    color: #424242;
-}
-
-.sns li{
-    margin-left: 30px;
+    color: #A1A3A6;
 }
 
 #contact p{
