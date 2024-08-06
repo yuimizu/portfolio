@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/loading.css" />
+    <link rel="stylesheet" href="../css/page-top.css" />
+</head>
+<body>
+    <!--読み込む前の画面-->
+    <div id="splash">
+      <div id="splash_text"></div>
+      <!--/splash-->
+    </div>
+    <!---画面遷移用-->
+
+    <!---header--->
+    <header class="p-3 sticky-top bg-white navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="index2.html">yui studio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body justify-content-end">
+            <ul class="navbar-nav nav">
+              <li class="nav-item"><a href="#introduce" class="nav-link link-warning text-dark">Introduce</a></li>
+              <li class="nav-item"><a href="#works" class="nav-link link-warning text-dark">Works</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-warning text-dark">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+    </header>
+
+    <!---main-visual--->
+    <div class="container main-visual">
+      <p class="copy text-center">
+          <span class="copy-text">yui's</span>
+          <span class="copy-text bottom">Portfolio</span>
+      </p>
+      <div class="main-visual-img">
+          <div class="item1">
+              <a href="#about"><img src="../img/introduce.png">
+              <span class="hover-text text-dark">introduce</span></a>
+          </div>
+          <div class="item1">
+              <a href="#works"><img src="../img/work.png">
+              <span class="hover-text text-dark">works</span></a>
+          </div>
+          <div class="item1">
+              <a href="#contact"><img src="../img/contact.png">
+              <span class="hover-text text-dark">contact</span></a>
+          </div>
+      </div>
+   </div>
+
+   <main id="area-2">
+    <!---introduce--->
+   <section id="introduce">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 text-center">
+          <img class="hobby" src="../img/hobby.jpg">
+        </div>
+        <div class="col-lg-7">
+          <div class="unit mb-5">
+            <h3>自己紹介</h3>
+            <p class="mb-2">web制作を始めたばかりの大学生です。<br>連絡のお返事に即答し、一生懸命頑張ります</p>
+            <p>乃木坂46が好きで、ライブによく行きます!<br>野球をやっていたので、バッティングセンターなど休日はアクティブです。</p>
+          </div>
+          <div class="unit">
+            <h3>使用言語</h3>
+            <p>html、css、JavaScript(jQuery)</p>
+          </div>
+          <p>ゆい</p>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <!---works--->
+    <section id="works">
+      <div class="container">
+        <h1 class="title text-center">Works</h1>
+        <div class="row g-3">
+          <div class="col-lg-4 col-sm-6">
+            <div class="site">
+              <a href="https://yuimizu.github.io/Recipe-Diary/html/index.html">
+                <img class="img-fluid" src="../img/Recipe-Diary.png">
+              </a>
+              <div class="overlay">
+                <div>
+                  <h4>Recipe Diary</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="site">
+              <a href="https://yuimizu.github.io/Recipe-Diary2/html/index.html">
+                <img class="img-fluid" src="../img/Recipe-Diary2.png">
+            </a>
+              <div class="overlay">
+                <div>
+                  <h4>Recipe Diary2</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="site">
+                <a href="https://yuimizu.github.io/Wooden-Jewelry/html/index.html">
+                  <img class="img-fluid" src="../img/Wooden-Jewelry.png">
+                </a>
+              <div class="overlay">
+                  <h4>Wooden Jewelry</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="site">
+              <a href="">
+                <img class="img-fluid" src="../img/創作.png">
+              </a>
+              <div class="overlay">
+                <div>
+                  <h4>創作</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="site">
+              <a href="https://yuimizu.github.io/orizinal/html/index2.html">
+                <img class="img-fluid" src="../img/original-site.png">
+              </a>
+              <div class="overlay">
+                <div>
+                  <h4>Original site</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="site">
+              <a href="">
+                <img class="img-fluid" src="../img/Green-Forest.png">
+              </a>
+              <div class="overlay">
+                <div>
+                  <h4>GREEN FOREST GARDENING</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </section>
+
+    <!---contact--->
+    <section id="contact">
+      <div class="container text-center">
+        <h1 class="title">Contact</h1>
+        <a class="link-primary text-dark" href="mailto:soregakoidato35@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl">
+          <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+        </svg>
+        </i></a>
+        
+        <p>いつでもご連絡お待ちしております</p> 
+      </div>
+    </section>
+
+    <aside><p class="js-scroll scroll-top scrollview"><a href="#area-2">Scroll</a></p>
+      <p class="js-pagetop scroll-top"><a href="#">Page Top</a></p>
+    </aside>
+   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+  <script src="../js/loading.js"></script>
+  <script src="../js/page-top.js"></script>  
+</body>
+</html>

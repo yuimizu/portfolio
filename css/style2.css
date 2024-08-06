@@ -1,0 +1,283 @@
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Inter';
+    color: #000;
+    position: relative;
+}
+
+.logo{
+    font-family: 'Jost';
+    font-size: 2rem;
+    color: #F6B03F;
+    font-weight: 700;
+}
+
+.nav{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+a{
+    font-size: 1rem;
+}
+
+.main-visual{
+    position: relative;
+}
+
+.copy{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    color: #F6B03F;
+}
+
+.copy-text{
+    font-style: italic;
+    font-size: 15.7333333333vw;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 1;
+}
+
+.bottom{
+    margin-top: 200px;   
+}
+
+.main-visual-img{
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    left: -2vh;
+}
+
+.main-visual-img img{
+    display: block;
+    width: 30vw;
+}
+
+.item1{
+    position: relative;
+}
+
+.item1:hover .hover-text{
+    display: inline;
+}
+
+.hover-text{
+    position: absolute;
+    display: none;
+    padding: 20px;
+    background-color: #FFF7DC;
+    top: 40px;
+    right: 5px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+#introduce{
+    background: linear-gradient(180deg, #FFF7DC 0%, rgba(255, 247, 220, 0) 100%);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 150px;
+}
+
+#introduce .row{
+    padding-top: 150px;    
+}
+
+.hobby{
+    width: 300px;
+    height: 310px;
+    border-radius:50%;
+    margin-bottom: 35px;
+}
+
+#introduce h3{
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+#works{
+    position: relative;
+    background: linear-gradient(180deg, #FFC3CB 0%, rgba(255, 195, 203, 0) 100%);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 125px;
+    padding-top: 125px;
+}
+
+#works .title{
+    position: absolute;
+    top: -60px;
+    right: 0;
+    left: 0;  
+}
+
+.title{
+    font-style: italic;
+    font-size: 7.375rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.site img{
+    width: 100%;
+}
+
+.site{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px; 
+    margin: 0 auto;  
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 39, 71, 0.7);
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.site:hover .overlay{
+    opacity: 1;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+#contact{
+    position: relative;
+    background: linear-gradient(180deg, #C6FFE2 -12.1%, rgba(198, 255, 226, 0) 87.9%);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 125px;
+    padding-top: 125px;
+}
+
+#contact .title{
+    position: absolute;
+    top: -60px;
+    right: 0;
+    left: 0;  
+}
+
+#contact p{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+
+    .main-visual-img{
+        left: 0;
+    }
+
+    #introduce h3{
+        font-size: 30px;
+    }
+
+    #introduce p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .logo{
+        font-size: 20px;
+    }
+
+    .main-visual-img img {
+        width: 35vw;
+    }
+
+    .main-visual-img{
+        top: 5vh;
+    }
+
+    .bottom {
+        margin-top: 100px;
+    }
+
+    .hover-text{
+        padding: 10px;
+        top: 30px;
+        right: 25px;
+        font-size: 15px;
+    }
+
+    #introduce{
+        margin-bottom: 80px;
+    }
+
+    #introduce .row {
+        padding-top: 80px;
+    }
+
+    .hobby {
+        width: 200px;
+        height: 210px;
+    }
+
+    #introduce h3{
+        font-size: 20px;
+    }
+
+    #introduce p{
+        font-size: 15px;
+    }
+
+    #works{
+        padding-top: 80px;
+    }
+
+    .title{
+        font-size: 80px;
+    }
+
+    .site{
+        width: 100%; 
+        margin: 0;  
+    }
+
+    #contact{
+        padding-top: 80px;
+    }
+
+    #contact p{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
